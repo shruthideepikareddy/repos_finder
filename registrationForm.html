@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <a href="index.html">Back To Homepage</a><br><br>
+    <fieldset>
+        <div class="box">
+            <h1>Registration Form</h1>
+            <form action="/submit-form" method="post">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" required><br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other" required>
+                <label for="other">Other</label><br><br>
+                <label for="mail">Email ID:</label><br>
+                <input type="mail" id="mail" name="contact"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" placeholder="password" class="password"><br><br>
+                <label for="password">Re-Type Password:</label><br>
+                <input type="password" placeholder="password" class="password"><br><br>
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" required><br><br>
+                <label for="pincode">Pin Code:</label><br>
+                <input type="text" id="pincode" name="pincode" required><br><br>
+                <label for="contact">Contact Number:</label><br>
+                <input type="tel" id="contact" name="contact"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </fieldset>
+    <script src="registrationForm.js"></script>
+</body>
+</html>
